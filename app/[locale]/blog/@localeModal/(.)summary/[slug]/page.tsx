@@ -22,7 +22,7 @@ export default function PhotoModal({
 
   return (
     <div className="border-solid border-2 border-red-500" onClick={onClick}>
-      Summary /[slug]: {summarySlug}
+      Summary [locale]/summary/[slug]: {summarySlug}
     </div>
   );
 }
